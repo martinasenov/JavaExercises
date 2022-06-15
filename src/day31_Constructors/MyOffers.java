@@ -1,9 +1,13 @@
 package day31_Constructors;
 
+import da23_CustomMethods_Void.CustomMethodsIntro;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MyOffers {
+
+
 
    /* 2. Create a class named MyOffers:
 
@@ -23,7 +27,8 @@ public class MyOffers {
     */
 
     public static void main(String[] args) {
-      //  2.1 Create 7 objects of Offer
+
+    //  2.1 Create 7 objects of Offer
         Offer offer1=new Offer();
         offer1.setInfo("VA","Amazon Inc","SDET",110000,true,true,true,true);
 
